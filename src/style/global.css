@@ -1,11 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
-body{
-    min-height: 100vh;
-    width: 100%;
-    margin: 0;
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  background-color: #000;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(53, 53, 53);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(117, 116, 116);
+  border-radius: 8px;
+}
+#tsparticles,
+.tsparticles-canvas-el {
+  position: absolute !important;
+  height: 100vh;
+  width: 100vw !important;
+  background: rgb(0, 0, 0) !important;
+  /* clip-path: polygon(0 80%, 0 61%, 83% 0, 100% 0, 100% 48%, 0 100%, 0 91%) !important;
+  clip-path: polygon(19% 0, 100% 96%, 100% 100%, 100% 100%, 0 33%, 0 0) !important; */
+}
+.moveForward {
+  width: 25rem !important;
+  height: 30rem !important;
+  opacity: 1 !important;
+  top: calc(50% - 40px) !important;
 }
