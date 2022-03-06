@@ -27,7 +27,7 @@ const Heading = styled.h1`
 }
 `
 
-export default function HeaderComp() {
+export default function Home() {
   return (
     <Header>
         <Heading>Dominik Vyroubal</Heading>
