@@ -12,14 +12,17 @@ body {
   width: 100%;
   margin: 0;
   background-color: #000;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: rgb(53, 53, 53);
+  background: #00000000;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(117, 116, 116);
-  border-radius: 8px;
+  background-color: #1800f1;
+}
+::-webkit-scrollbar-thumb:active{
+  background-color: #1800f179;
 }
 #tsparticles,
 .tsparticles-canvas-el {
@@ -27,8 +30,6 @@ body {
   height: 100vh;
   width: 100vw !important;
   background: rgb(0, 0, 0) !important;
-  /* clip-path: polygon(0 80%, 0 61%, 83% 0, 100% 0, 100% 48%, 0 100%, 0 91%) !important;
-  clip-path: polygon(19% 0, 100% 96%, 100% 100%, 100% 100%, 0 33%, 0 0) !important; */
 }
 .moveForward {
   width: 25rem !important;
