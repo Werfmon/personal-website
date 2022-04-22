@@ -11,6 +11,7 @@ export default function App() {
 
     el.position = "relative";
     el.height = "100vh";
+    el.zIndex = "-1";
 
     canvas.position = "absolute";
     canvas.height = "100vh";

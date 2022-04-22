@@ -13,5 +13,7 @@ export const Paragraph = styled.p`
   width: 50%;
   margin: 0 auto;
   color: #fff;
-  margin-top: 10rem;
+  z-index: 10;
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
 `
