@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 const Header = styled.header`
     position: absolute;
@@ -8,9 +8,10 @@ const Header = styled.header`
     place-content: center;
     
     `
+
 const Heading = styled.h1`
     font-family: 'Poiret One', cursive;
-    font-weight: 100;
+    font-weight: 900;
     color: #fff;
     text-align: center;
     font-size: clamp(2rem, 8vw, 8rem);
@@ -28,7 +29,9 @@ const Heading = styled.h1`
 `
 
 export default function Home() {
+
   return (
+
     <Header>
         <Heading>Dominik Vyroubal</Heading>
     </Header>
