@@ -12,6 +12,7 @@ body {
   width: 100%;
   margin: 0;
   background-color: #000;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -22,9 +23,9 @@ body {
   border-radius: 8px;
 }
 #tsparticles,
-.tsparticles-canvas-el {
+.tsparticles-canvas-el{
   position: absolute !important;
-  height: 100vh;
+  height: 100vh !important;
   width: 100vw !important;
   background: rgb(0, 0, 0) !important;
   /* clip-path: polygon(0 80%, 0 61%, 83% 0, 100% 0, 100% 48%, 0 100%, 0 91%) !important;
