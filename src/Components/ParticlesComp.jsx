@@ -2,9 +2,7 @@ import React, {useEffect} from "react";
 import Particles from "react-tsparticles";
 
 export default function ParticlesComp() {
-  useEffect(() => {
-    document.querySelectorAll('#tsparticles canvas')[0].style.position = "absolute"
-  }, [])
+
   return (
     <Particles
       id="tsparticles"

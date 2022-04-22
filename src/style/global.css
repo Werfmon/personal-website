@@ -25,7 +25,7 @@ body {
   background-color: #1800f179;
 }
 #tsparticles,
-.tsparticles-canvas-el{
+canvas{
   position: absolute !important;
   height: 100vh !important;
   width: 100vw !important;
