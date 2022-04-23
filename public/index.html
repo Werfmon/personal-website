@@ -9,8 +9,21 @@
       content="Web site created using create-react-app"
     />
     <title>React App</title>
+    <script>
+      function setParticles() {
+        let el = document.querySelectorAll("#tsparticles")[0].style;
+        let canvas = document.querySelectorAll("#tsparticles canvas")[0].style;
+        
+        el.position = "relative";
+        el.height = "100vh";
+        el.zIndex = "-1";
+        
+        canvas.position = "absolute";
+        canvas.height = "100vh";
+      }
+    </script>
   </head>
-  <body>
+  <body onload="setParticles()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>

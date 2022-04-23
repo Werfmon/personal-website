@@ -5,22 +5,12 @@ import About from "./Components/About";
 import ParticlesComp from "./Components/ParticlesComp";
 
 export default function App() {
-  useEffect(() => {
-    let el = document.querySelectorAll("#tsparticles")[0].style;
-    let canvas = document.querySelectorAll("#tsparticles canvas")[0].style;
 
-    el.position = "relative";
-    el.height = "100vh";
-    el.zIndex = "-1";
-
-    canvas.position = "absolute";
-    canvas.height = "100vh";
-  }, []);
   return (
     <>
       <div style={{ height: "100vh" }}>
-        <ParticlesComp />
         <Home />
+        <ParticlesComp />
       </div>
       <About />
       <Experience />
