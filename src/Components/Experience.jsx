@@ -107,8 +107,8 @@ export default function Experience() {
             <ContainerHeading>Web development</ContainerHeading>
             <ExperienceBox>
               <ExperienceText>
-                On FE a i have experience with React.js, Next.js
-                and other else, on backend i worked with PHP, Express.js
+                On FE a I have experience with React.js, Next.js
+                and other else, on backend I worked with PHP, Express.js
               </ExperienceText>
             </ExperienceBox>
             <ProgessBarContainer>
@@ -138,9 +138,59 @@ export default function Experience() {
           </ExperienceContainer>
           <ExperienceContainer>
             <ContainerHeading>Networking</ContainerHeading>
+            <ExperienceBox>
+              <ExperienceText>
+                I am still learning configuration LAN techniques like NAT, Routing, addresses and other staff
+              </ExperienceText>
+            </ExperienceBox>
+            <ProgessBarContainer>
+              <ProgessBarText>Theory</ProgessBarText>
+              <ProgressBar length=".4"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>Building</ProgessBarText>
+              <ProgressBar length=".5"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>CISCO IOS</ProgessBarText>
+              <ProgressBar length=".5"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>Security</ProgessBarText>
+              <ProgressBar length=".3"></ProgressBar>
+            </ProgessBarContainer>
           </ExperienceContainer>
           <ExperienceContainer>
             <ContainerHeading>Other</ContainerHeading>
+            <ExperienceBox>
+              <ExperienceText>
+                Okey, i also have some knowlange with libraries and unix systems 
+              </ExperienceText>
+            </ExperienceBox>
+            <ProgessBarContainer>
+              <ProgessBarText>Arduino</ProgessBarText>
+              <ProgressBar length=".5"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>Doctrine</ProgessBarText>
+              <ProgressBar length=".3"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>JS libraries</ProgessBarText>
+              <ProgressBar length=".7"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>Linux</ProgessBarText>
+              <ProgressBar length=".6"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>Nmap</ProgessBarText>
+              <ProgressBar length=".6"></ProgressBar>
+            </ProgessBarContainer>
+            <ProgessBarContainer>
+              <ProgessBarText>Git</ProgessBarText>
+              <ProgressBar length=".8"></ProgressBar>
+            </ProgessBarContainer>
           </ExperienceContainer>
         </ExperienceBoxContainer>
       </ExperienceSection>

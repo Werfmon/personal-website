@@ -22,15 +22,15 @@ export default function About() {
       <Paragraph>So, my name is Dominik <Span>"werfmon"</Span> Vyroubal</Paragraph>
       <Paragraph>
         I am a student of Technology High School in Ostrava already the third
-        year of study i am still entrying into world of technologies.
+        year of study I am still entrying into world of technologies.
       </Paragraph>
       <Paragraph>
-        I started with C language, later with Java, in year 2021 i tryed many
+        I started with C language, later with Java, in year 2021 I tryed many
         languages concerning microcontrollers, web development, mobile
         development.
       </Paragraph>
       <Paragraph>
-        Already i am interested into Ethical hacking and CISCO Networking
+        Already I am interested into Ethical hacking and CISCO Networking
         certification (CCNA7).
       </Paragraph>
       <Paragraph>
