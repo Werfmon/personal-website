@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Home from "./Components/Home";
 import Experience from "./Components/Experience";
 import About from "./Components/About";
 import ParticlesComp from "./Components/ParticlesComp";
+import FooterPart from "./Components/FooterPart";
 
 export default function App() {
 
@@ -14,6 +15,7 @@ export default function App() {
       </div>
       <About />
       <Experience />
+      <FooterPart />
     </>
   );
 }

@@ -36,3 +36,14 @@ canvas{
   opacity: 1 !important;
   top: calc(50% - 40px) !important;
 }
+.gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(94, 189, 62, 1) 34%,
+    rgba(255, 185, 0, 1),
+    rgba(247, 130, 0, 1),
+    rgba(226, 56, 56, 1),
+    rgba(151, 57, 153, 1),
+    rgba(0, 156, 223, 1) 91%
+  );
+}

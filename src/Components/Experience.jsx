@@ -163,7 +163,7 @@ export default function Experience() {
             <ContainerHeading>Other</ContainerHeading>
             <ExperienceBox>
               <ExperienceText>
-                Okey, i also have some knowlange with libraries and unix systems 
+                Okey, i also have some knowlange with libraries and tools 
               </ExperienceText>
             </ExperienceBox>
             <ProgessBarContainer>
