@@ -16,9 +16,9 @@ const ExperienceContainer = styled.div`
   box-sizing: border-box;
   height: 30rem;
   width: 20rem;
-  background: linear-gradient(to right bottom, #000, #0c0c0c);
+  background: linear-gradient(140deg, #1414158b 0%, #0d0f15 10%, #0e0e0e 90%, #151515 100%);
+  box-shadow: 3px 3px 10px #0c0c0c;
   padding: 2rem;
-  border: 2px solid #f8f8f8;
   border-radius: 10px;
 `;
 const HeadingExperience = styled.h2`
@@ -39,7 +39,7 @@ const HeadingExperience = styled.h2`
     width: 100%;
     left: 12px;
     top: 20px;
-    background-color: #411bfd;
+    background-color: #4d06e6;
   }
 `;
 const ExperienceBoxContainer = styled.div`
@@ -54,9 +54,9 @@ const ExperienceBoxContainer = styled.div`
 const ExperienceBox = styled.div`
   width: 90%;
   margin-block: 2rem;
-  border: 3px #1800f1 solid;
+  border: 2px #ffffff solid;
+  background-color: #18171d;
   margin-left: -60px;
-  background-color: #040404;
   border-radius: 10px;
 `;
 const ContainerHeading = styled.h3`
@@ -71,7 +71,6 @@ const ExperienceText = styled.p`
 const ProgressBar = styled.div`
   width: 10rem;
   height: .7rem;
-  border: 2px solid #b9b9b9;
   border-radius: 10px;
   position: relative;
   &::after{

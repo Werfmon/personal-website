@@ -10,6 +10,10 @@ const Header = styled.header`
     `
 
 const Heading = styled.h1`
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     font-family: 'Poiret One', cursive;
     font-weight: 900;
     color: #fff;
