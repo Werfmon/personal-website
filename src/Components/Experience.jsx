@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useEffect}  from "react";
 import styled from "styled-components";
+import ScrollReveal from 'scrollreveal'
 const ExperienceSection = styled.section`
   background-color: #000;
   width: 100%;
@@ -95,13 +96,19 @@ const ProgessBarText = styled.h4`
   font-weight: 100;
 `
 export default function Experience() {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.progress', {delay: 700, duration: 3000, origin: 'bottom', distance: '250%'});
+    ScrollReveal().reveal('.boxes', {delay: 300});
+  }, [])
+  
   return (
     <>
       <ClipExperienceSection></ClipExperienceSection>
 
       <ExperienceSection>
         <HeadingExperience>Experience</HeadingExperience>
-        <ExperienceBoxContainer>
+        <ExperienceBoxContainer className="boxes">
           <ExperienceContainer>
             <ContainerHeading>Web development</ContainerHeading>
             <ExperienceBox>
@@ -112,30 +119,30 @@ export default function Experience() {
             </ExperienceBox>
             <ProgessBarContainer>
               <ProgessBarText>HTML</ProgessBarText>
-              <ProgressBar length=".8"></ProgressBar>
+              <ProgressBar className="progress" length=".8"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>CSS</ProgessBarText>
-              <ProgressBar length=".8"></ProgressBar>
+              <ProgressBar className="progress" length=".8"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>JavaScript</ProgessBarText>
-              <ProgressBar length=".9"></ProgressBar>
+              <ProgressBar className="progress" length=".9"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>React</ProgessBarText>
-              <ProgressBar length=".8"></ProgressBar>
+              <ProgressBar className="progress" length=".8"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>PHP</ProgessBarText>
-              <ProgressBar length=".6"></ProgressBar>
+              <ProgressBar className="progress" length=".6"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>SQL</ProgessBarText>
-              <ProgressBar length=".7"></ProgressBar>
+              <ProgressBar className="progress" length=".7"></ProgressBar>
             </ProgessBarContainer>
           </ExperienceContainer>
-          <ExperienceContainer>
+          <ExperienceContainer className="boxes">
             <ContainerHeading>Networking</ContainerHeading>
             <ExperienceBox>
               <ExperienceText>
@@ -144,22 +151,22 @@ export default function Experience() {
             </ExperienceBox>
             <ProgessBarContainer>
               <ProgessBarText>Theory</ProgessBarText>
-              <ProgressBar length=".4"></ProgressBar>
+              <ProgressBar className="progress" length=".4"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>Building</ProgessBarText>
-              <ProgressBar length=".5"></ProgressBar>
+              <ProgressBar className="progress" length=".5"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>CISCO IOS</ProgessBarText>
-              <ProgressBar length=".5"></ProgressBar>
+              <ProgressBar className="progress" length=".5"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>Security</ProgessBarText>
-              <ProgressBar length=".3"></ProgressBar>
+              <ProgressBar className="progress" length=".3"></ProgressBar>
             </ProgessBarContainer>
           </ExperienceContainer>
-          <ExperienceContainer>
+          <ExperienceContainer className="boxes">
             <ContainerHeading>Other</ContainerHeading>
             <ExperienceBox>
               <ExperienceText>
@@ -168,27 +175,27 @@ export default function Experience() {
             </ExperienceBox>
             <ProgessBarContainer>
               <ProgessBarText>Arduino</ProgessBarText>
-              <ProgressBar length=".5"></ProgressBar>
+              <ProgressBar className="progress" length=".5"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>Doctrine</ProgessBarText>
-              <ProgressBar length=".3"></ProgressBar>
+              <ProgressBar className="progress" length=".3"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>JS libraries</ProgessBarText>
-              <ProgressBar length=".7"></ProgressBar>
+              <ProgressBar className="progress" length=".7"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>Linux</ProgessBarText>
-              <ProgressBar length=".6"></ProgressBar>
+              <ProgressBar className="progress" length=".4"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>Nmap</ProgessBarText>
-              <ProgressBar length=".6"></ProgressBar>
+              <ProgressBar className="progress" length=".6"></ProgressBar>
             </ProgessBarContainer>
             <ProgessBarContainer>
               <ProgessBarText>Git</ProgessBarText>
-              <ProgressBar length=".8"></ProgressBar>
+              <ProgressBar className="progress" length=".6"></ProgressBar>
             </ProgessBarContainer>
           </ExperienceContainer>
         </ExperienceBoxContainer>
